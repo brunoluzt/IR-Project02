@@ -1,0 +1,14 @@
+# Substitui o bloco "planner_server" no teu ficheiro de parâmetros do Nav2
+# (cópia de turtlebot3_navigation2/param/<distro>/burger.yaml, por exemplo).
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 20.0
+    planner_plugins: ["GridBased"]   # mantém o nome para não mexer no resto
+    GridBased:
+      plugin: "rrt_planner/RRTPlanner"
+      step_size: 0.3          # [m] extensão máxima por iteração
+      goal_tolerance: 0.2     # [m]
+      goal_bias: 0.05         # probabilidade de amostrar o goal
+      max_iterations: 5000
+      seed: -1                # >=0 para resultados reprodutíveis
+      publish_tree: true
