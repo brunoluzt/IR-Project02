@@ -1,0 +1,67 @@
+[0.051s] Invoking command in '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/bruno/IR-Project02/rrt-planner/IR-Project02/src/RRT_algorithm/rrt_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner
+[1.455s] -- The C compiler identification is GNU 13.3.0
+[3.296s] -- The CXX compiler identification is GNU 13.3.0
+[3.775s] -- Detecting C compiler ABI info
+[4.319s] -- Detecting C compiler ABI info - done
+[4.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.345s] -- Detecting C compile features
+[4.346s] -- Detecting C compile features - done
+[4.438s] -- Detecting CXX compiler ABI info
+[4.816s] -- Detecting CXX compiler ABI info - done
+[4.839s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.840s] -- Detecting CXX compile features
+[4.841s] -- Detecting CXX compile features - done
+[4.968s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.404s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.640s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.834s] -- Found nav2_core: 1.3.13 (/opt/ros/jazzy/share/nav2_core/cmake)
+[6.276s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.346s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.958s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.979s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.418s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.625s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.763s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.869s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[9.876s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.876s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.054s] -- Configuring done (10.4s)
+[11.664s] -- Generating done (0.5s)
+[11.700s] -- Build files have been written to: /home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner
+[11.769s] Invoked command in '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/bruno/IR-Project02/rrt-planner/IR-Project02/src/RRT_algorithm/rrt_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner
+[11.769s] Invoking command in '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner -- -j2 -l2
+[11.994s] [ 50%] [32mBuilding CXX object CMakeFiles/rrt_planner.dir/src/rrt_planner.cpp.o[0m
+[38.423s] [100%] [32m[1mLinking CXX shared library librrt_planner.so[0m
+[41.647s] [100%] Built target rrt_planner
+[41.737s] Invoked command in '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner -- -j2 -l2
+[41.846s] Invoking command in '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner
+[41.918s] -- Install configuration: ""
+[41.933s] -- Execute custom install script
+[41.934s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner//rrt_planner_plugin.xml
+[42.040s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/lib/librrt_planner.so
+[42.120s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/include/rrt_planner/rrt_planner/rrt_planner.hpp
+[42.191s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/config/planner_server_rrt.yaml
+[42.260s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/library_path.sh
+[42.330s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/library_path.dsv
+[42.408s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/ament_index/resource_index/package_run_dependencies/rrt_planner
+[42.483s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/ament_index/resource_index/parent_prefix_path/rrt_planner
+[42.566s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/ament_prefix_path.sh
+[42.613s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/ament_prefix_path.dsv
+[42.688s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/path.sh
+[42.745s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/path.dsv
+[42.832s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/local_setup.bash
+[42.874s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/local_setup.sh
+[42.957s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/local_setup.zsh
+[43.024s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/local_setup.dsv
+[43.136s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/package.dsv
+[43.170s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/ament_index/resource_index/packages/rrt_planner
+[43.239s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/rrt_planner
+[43.308s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.375s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[43.457s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.507s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/rrt_plannerConfig.cmake
+[43.566s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/rrt_plannerConfig-version.cmake
+[43.649s] -- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/package.xml
+[43.697s] Invoked command in '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner

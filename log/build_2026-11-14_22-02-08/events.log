@@ -1,0 +1,487 @@
+[0.000000] (-) TimerEvent: {}
+[0.003140] (rrt_planner) JobQueued: {'identifier': 'rrt_planner', 'dependencies': OrderedDict()}
+[0.003271] (rrt_planner) JobStarted: {'identifier': 'rrt_planner'}
+[0.048687] (rrt_planner) JobProgress: {'identifier': 'rrt_planner', 'progress': 'cmake'}
+[0.052305] (rrt_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/bruno/IR-Project02/rrt-planner/IR-Project02/src/RRT_algorithm/rrt_planner', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner'], 'cwd': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'bruno', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bruno', 'OLDPWD': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/src/RRT_algorithm/rrt_planner', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bruno', 'NAME': 'Bruno', 'WSL_INTEROP': '/run/WSL/168_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/bruno/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Graphviz/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/bruno/.local/bin:/mnt/c/Users/bruno/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bruno/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/bruno/.local/bin:/home/bruno/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner', 'TURTLEBOT3_MODEL': 'waffle_pi', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.104318] (-) TimerEvent: {}
+[0.205505] (-) TimerEvent: {}
+[0.306668] (-) TimerEvent: {}
+[0.417146] (-) TimerEvent: {}
+[0.518375] (-) TimerEvent: {}
+[0.620675] (-) TimerEvent: {}
+[0.721724] (-) TimerEvent: {}
+[0.822989] (-) TimerEvent: {}
+[0.924060] (-) TimerEvent: {}
+[1.027135] (-) TimerEvent: {}
+[1.128615] (-) TimerEvent: {}
+[1.230237] (-) TimerEvent: {}
+[1.331555] (-) TimerEvent: {}
+[1.435354] (-) TimerEvent: {}
+[1.458185] (rrt_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.535627] (-) TimerEvent: {}
+[1.636591] (-) TimerEvent: {}
+[1.747081] (-) TimerEvent: {}
+[1.848033] (-) TimerEvent: {}
+[1.954183] (-) TimerEvent: {}
+[2.056188] (-) TimerEvent: {}
+[2.158015] (-) TimerEvent: {}
+[2.269584] (-) TimerEvent: {}
+[2.372547] (-) TimerEvent: {}
+[2.483308] (-) TimerEvent: {}
+[2.590169] (-) TimerEvent: {}
+[2.694602] (-) TimerEvent: {}
+[2.797291] (-) TimerEvent: {}
+[2.908597] (-) TimerEvent: {}
+[3.011672] (-) TimerEvent: {}
+[3.120479] (-) TimerEvent: {}
+[3.221246] (-) TimerEvent: {}
+[3.298736] (rrt_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.321755] (-) TimerEvent: {}
+[3.422706] (-) TimerEvent: {}
+[3.523426] (-) TimerEvent: {}
+[3.624132] (-) TimerEvent: {}
+[3.724934] (-) TimerEvent: {}
+[3.778047] (rrt_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.825357] (-) TimerEvent: {}
+[3.926404] (-) TimerEvent: {}
+[4.033402] (-) TimerEvent: {}
+[4.143368] (-) TimerEvent: {}
+[4.244004] (-) TimerEvent: {}
+[4.322328] (rrt_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.344236] (-) TimerEvent: {}
+[4.346195] (rrt_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.348036] (rrt_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.349337] (rrt_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.440682] (rrt_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.444542] (-) TimerEvent: {}
+[4.545276] (-) TimerEvent: {}
+[4.646213] (-) TimerEvent: {}
+[4.747425] (-) TimerEvent: {}
+[4.818944] (rrt_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.842484] (rrt_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.843251] (rrt_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.844434] (rrt_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.847713] (-) TimerEvent: {}
+[4.957012] (-) TimerEvent: {}
+[4.970995] (rrt_planner) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[5.058687] (-) TimerEvent: {}
+[5.159343] (-) TimerEvent: {}
+[5.263221] (-) TimerEvent: {}
+[5.363751] (-) TimerEvent: {}
+[5.406499] (rrt_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.467202] (-) TimerEvent: {}
+[5.567782] (-) TimerEvent: {}
+[5.643039] (rrt_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.669725] (-) TimerEvent: {}
+[5.780356] (-) TimerEvent: {}
+[5.836548] (rrt_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.3.13 (/opt/ros/jazzy/share/nav2_core/cmake)\n'}
+[5.880714] (-) TimerEvent: {}
+[5.981631] (-) TimerEvent: {}
+[6.082659] (-) TimerEvent: {}
+[6.183774] (-) TimerEvent: {}
+[6.278925] (rrt_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[6.283990] (-) TimerEvent: {}
+[6.348951] (rrt_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[6.385142] (-) TimerEvent: {}
+[6.450861] (rrt_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.486431] (-) TimerEvent: {}
+[6.567097] (rrt_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.587070] (-) TimerEvent: {}
+[6.696436] (-) TimerEvent: {}
+[6.806214] (-) TimerEvent: {}
+[6.908882] (-) TimerEvent: {}
+[6.960566] (rrt_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[6.982436] (rrt_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.011298] (-) TimerEvent: {}
+[7.117264] (-) TimerEvent: {}
+[7.218213] (-) TimerEvent: {}
+[7.319327] (-) TimerEvent: {}
+[7.419966] (-) TimerEvent: {}
+[7.421283] (rrt_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[7.520300] (-) TimerEvent: {}
+[7.621537] (-) TimerEvent: {}
+[7.628311] (rrt_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[7.721998] (-) TimerEvent: {}
+[7.766370] (rrt_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.823364] (-) TimerEvent: {}
+[7.933836] (-) TimerEvent: {}
+[8.044512] (-) TimerEvent: {}
+[8.145392] (-) TimerEvent: {}
+[8.246287] (-) TimerEvent: {}
+[8.349869] (-) TimerEvent: {}
+[8.460612] (-) TimerEvent: {}
+[8.565002] (-) TimerEvent: {}
+[8.669540] (-) TimerEvent: {}
+[8.776991] (-) TimerEvent: {}
+[8.882832] (-) TimerEvent: {}
+[8.993182] (-) TimerEvent: {}
+[9.095022] (-) TimerEvent: {}
+[9.205425] (-) TimerEvent: {}
+[9.313920] (-) TimerEvent: {}
+[9.422487] (-) TimerEvent: {}
+[9.523367] (-) TimerEvent: {}
+[9.627245] (-) TimerEvent: {}
+[9.737495] (-) TimerEvent: {}
+[9.838307] (-) TimerEvent: {}
+[9.871819] (rrt_planner) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[9.878680] (rrt_planner) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[9.879188] (rrt_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.943993] (-) TimerEvent: {}
+[10.054322] (-) TimerEvent: {}
+[10.161036] (-) TimerEvent: {}
+[10.264357] (-) TimerEvent: {}
+[10.366556] (-) TimerEvent: {}
+[10.474169] (-) TimerEvent: {}
+[10.584916] (-) TimerEvent: {}
+[10.693976] (-) TimerEvent: {}
+[10.795002] (-) TimerEvent: {}
+[10.899698] (-) TimerEvent: {}
+[11.002174] (-) TimerEvent: {}
+[11.057353] (rrt_planner) StdoutLine: {'line': b'-- Configuring done (10.4s)\n'}
+[11.103114] (-) TimerEvent: {}
+[11.208750] (-) TimerEvent: {}
+[11.318913] (-) TimerEvent: {}
+[11.425239] (-) TimerEvent: {}
+[11.535818] (-) TimerEvent: {}
+[11.639093] (-) TimerEvent: {}
+[11.667394] (rrt_planner) StdoutLine: {'line': b'-- Generating done (0.5s)\n'}
+[11.703285] (rrt_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner\n'}
+[11.740518] (-) TimerEvent: {}
+[11.771457] (rrt_planner) CommandEnded: {'returncode': 0}
+[11.772288] (rrt_planner) JobProgress: {'identifier': 'rrt_planner', 'progress': 'build'}
+[11.772341] (rrt_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner', '--', '-j2', '-l2'], 'cwd': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'bruno', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bruno', 'OLDPWD': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/src/RRT_algorithm/rrt_planner', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bruno', 'NAME': 'Bruno', 'WSL_INTEROP': '/run/WSL/168_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/bruno/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Graphviz/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/bruno/.local/bin:/mnt/c/Users/bruno/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bruno/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/bruno/.local/bin:/home/bruno/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner', 'TURTLEBOT3_MODEL': 'waffle_pi', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[11.849265] (-) TimerEvent: {}
+[11.956530] (-) TimerEvent: {}
+[11.997436] (rrt_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rrt_planner.dir/src/rrt_planner.cpp.o\x1b[0m\n'}
+[12.056885] (-) TimerEvent: {}
+[12.158276] (-) TimerEvent: {}
+[12.259313] (-) TimerEvent: {}
+[12.360877] (-) TimerEvent: {}
+[12.471234] (-) TimerEvent: {}
+[12.576690] (-) TimerEvent: {}
+[12.683061] (-) TimerEvent: {}
+[12.793492] (-) TimerEvent: {}
+[12.895585] (-) TimerEvent: {}
+[13.001238] (-) TimerEvent: {}
+[13.111756] (-) TimerEvent: {}
+[13.221069] (-) TimerEvent: {}
+[13.326057] (-) TimerEvent: {}
+[13.428241] (-) TimerEvent: {}
+[13.534241] (-) TimerEvent: {}
+[13.645947] (-) TimerEvent: {}
+[13.756697] (-) TimerEvent: {}
+[13.868201] (-) TimerEvent: {}
+[13.974661] (-) TimerEvent: {}
+[14.084645] (-) TimerEvent: {}
+[14.188091] (-) TimerEvent: {}
+[14.291406] (-) TimerEvent: {}
+[14.392972] (-) TimerEvent: {}
+[14.494318] (-) TimerEvent: {}
+[14.605266] (-) TimerEvent: {}
+[14.710222] (-) TimerEvent: {}
+[14.821378] (-) TimerEvent: {}
+[14.924742] (-) TimerEvent: {}
+[15.025887] (-) TimerEvent: {}
+[15.136624] (-) TimerEvent: {}
+[15.242884] (-) TimerEvent: {}
+[15.347916] (-) TimerEvent: {}
+[15.449959] (-) TimerEvent: {}
+[15.557364] (-) TimerEvent: {}
+[15.660416] (-) TimerEvent: {}
+[15.768530] (-) TimerEvent: {}
+[15.879261] (-) TimerEvent: {}
+[15.980760] (-) TimerEvent: {}
+[16.091459] (-) TimerEvent: {}
+[16.201760] (-) TimerEvent: {}
+[16.311969] (-) TimerEvent: {}
+[16.422506] (-) TimerEvent: {}
+[16.523341] (-) TimerEvent: {}
+[16.633804] (-) TimerEvent: {}
+[16.736584] (-) TimerEvent: {}
+[16.847233] (-) TimerEvent: {}
+[16.957776] (-) TimerEvent: {}
+[17.064739] (-) TimerEvent: {}
+[17.175355] (-) TimerEvent: {}
+[17.276051] (-) TimerEvent: {}
+[17.385343] (-) TimerEvent: {}
+[17.486490] (-) TimerEvent: {}
+[17.587351] (-) TimerEvent: {}
+[17.696492] (-) TimerEvent: {}
+[17.804372] (-) TimerEvent: {}
+[17.906872] (-) TimerEvent: {}
+[18.017272] (-) TimerEvent: {}
+[18.127869] (-) TimerEvent: {}
+[18.238325] (-) TimerEvent: {}
+[18.348804] (-) TimerEvent: {}
+[18.449702] (-) TimerEvent: {}
+[18.552302] (-) TimerEvent: {}
+[18.663082] (-) TimerEvent: {}
+[18.773451] (-) TimerEvent: {}
+[18.884062] (-) TimerEvent: {}
+[18.994613] (-) TimerEvent: {}
+[19.100572] (-) TimerEvent: {}
+[19.201369] (-) TimerEvent: {}
+[19.310023] (-) TimerEvent: {}
+[19.421218] (-) TimerEvent: {}
+[19.527743] (-) TimerEvent: {}
+[19.635907] (-) TimerEvent: {}
+[19.746336] (-) TimerEvent: {}
+[19.857015] (-) TimerEvent: {}
+[19.967615] (-) TimerEvent: {}
+[20.068378] (-) TimerEvent: {}
+[20.178876] (-) TimerEvent: {}
+[20.289329] (-) TimerEvent: {}
+[20.399552] (-) TimerEvent: {}
+[20.500605] (-) TimerEvent: {}
+[20.603181] (-) TimerEvent: {}
+[20.713783] (-) TimerEvent: {}
+[20.824522] (-) TimerEvent: {}
+[20.935247] (-) TimerEvent: {}
+[21.045687] (-) TimerEvent: {}
+[21.152012] (-) TimerEvent: {}
+[21.262520] (-) TimerEvent: {}
+[21.372835] (-) TimerEvent: {}
+[21.483464] (-) TimerEvent: {}
+[21.592404] (-) TimerEvent: {}
+[21.702091] (-) TimerEvent: {}
+[21.812743] (-) TimerEvent: {}
+[21.923450] (-) TimerEvent: {}
+[22.033818] (-) TimerEvent: {}
+[22.136405] (-) TimerEvent: {}
+[22.247043] (-) TimerEvent: {}
+[22.357001] (-) TimerEvent: {}
+[22.465931] (-) TimerEvent: {}
+[22.572745] (-) TimerEvent: {}
+[22.677680] (-) TimerEvent: {}
+[22.787852] (-) TimerEvent: {}
+[22.888747] (-) TimerEvent: {}
+[22.989718] (-) TimerEvent: {}
+[23.090822] (-) TimerEvent: {}
+[23.196733] (-) TimerEvent: {}
+[23.307386] (-) TimerEvent: {}
+[23.410192] (-) TimerEvent: {}
+[23.515910] (-) TimerEvent: {}
+[23.626511] (-) TimerEvent: {}
+[23.734575] (-) TimerEvent: {}
+[23.845595] (-) TimerEvent: {}
+[23.949893] (-) TimerEvent: {}
+[24.060149] (-) TimerEvent: {}
+[24.170701] (-) TimerEvent: {}
+[24.281123] (-) TimerEvent: {}
+[24.391413] (-) TimerEvent: {}
+[24.501848] (-) TimerEvent: {}
+[24.610609] (-) TimerEvent: {}
+[24.714723] (-) TimerEvent: {}
+[24.825156] (-) TimerEvent: {}
+[24.935809] (-) TimerEvent: {}
+[25.043254] (-) TimerEvent: {}
+[25.153657] (-) TimerEvent: {}
+[25.261252] (-) TimerEvent: {}
+[25.371479] (-) TimerEvent: {}
+[25.482039] (-) TimerEvent: {}
+[25.588847] (-) TimerEvent: {}
+[25.699477] (-) TimerEvent: {}
+[25.810011] (-) TimerEvent: {}
+[25.920743] (-) TimerEvent: {}
+[26.031251] (-) TimerEvent: {}
+[26.141582] (-) TimerEvent: {}
+[26.245145] (-) TimerEvent: {}
+[26.355939] (-) TimerEvent: {}
+[26.464697] (-) TimerEvent: {}
+[26.569313] (-) TimerEvent: {}
+[26.679955] (-) TimerEvent: {}
+[26.781200] (-) TimerEvent: {}
+[26.886942] (-) TimerEvent: {}
+[26.996183] (-) TimerEvent: {}
+[27.106944] (-) TimerEvent: {}
+[27.217506] (-) TimerEvent: {}
+[27.326721] (-) TimerEvent: {}
+[27.437263] (-) TimerEvent: {}
+[27.538376] (-) TimerEvent: {}
+[27.645313] (-) TimerEvent: {}
+[27.756006] (-) TimerEvent: {}
+[27.866494] (-) TimerEvent: {}
+[27.969782] (-) TimerEvent: {}
+[28.073605] (-) TimerEvent: {}
+[28.184344] (-) TimerEvent: {}
+[28.287819] (-) TimerEvent: {}
+[28.394481] (-) TimerEvent: {}
+[28.495385] (-) TimerEvent: {}
+[28.596109] (-) TimerEvent: {}
+[28.704354] (-) TimerEvent: {}
+[28.808321] (-) TimerEvent: {}
+[28.911372] (-) TimerEvent: {}
+[29.021914] (-) TimerEvent: {}
+[29.126750] (-) TimerEvent: {}
+[29.237240] (-) TimerEvent: {}
+[29.338275] (-) TimerEvent: {}
+[29.449069] (-) TimerEvent: {}
+[29.549966] (-) TimerEvent: {}
+[29.656376] (-) TimerEvent: {}
+[29.767063] (-) TimerEvent: {}
+[29.869568] (-) TimerEvent: {}
+[29.980419] (-) TimerEvent: {}
+[30.086866] (-) TimerEvent: {}
+[30.196688] (-) TimerEvent: {}
+[30.307237] (-) TimerEvent: {}
+[30.411243] (-) TimerEvent: {}
+[30.521697] (-) TimerEvent: {}
+[30.623739] (-) TimerEvent: {}
+[30.734403] (-) TimerEvent: {}
+[30.837936] (-) TimerEvent: {}
+[30.946471] (-) TimerEvent: {}
+[31.056856] (-) TimerEvent: {}
+[31.161466] (-) TimerEvent: {}
+[31.272343] (-) TimerEvent: {}
+[31.373334] (-) TimerEvent: {}
+[31.484006] (-) TimerEvent: {}
+[31.587892] (-) TimerEvent: {}
+[31.694883] (-) TimerEvent: {}
+[31.805230] (-) TimerEvent: {}
+[31.908806] (-) TimerEvent: {}
+[32.019407] (-) TimerEvent: {}
+[32.129783] (-) TimerEvent: {}
+[32.240406] (-) TimerEvent: {}
+[32.350683] (-) TimerEvent: {}
+[32.457915] (-) TimerEvent: {}
+[32.559082] (-) TimerEvent: {}
+[32.661538] (-) TimerEvent: {}
+[32.772241] (-) TimerEvent: {}
+[32.878307] (-) TimerEvent: {}
+[32.989570] (-) TimerEvent: {}
+[33.100291] (-) TimerEvent: {}
+[33.206000] (-) TimerEvent: {}
+[33.316981] (-) TimerEvent: {}
+[33.419202] (-) TimerEvent: {}
+[33.528879] (-) TimerEvent: {}
+[33.636819] (-) TimerEvent: {}
+[33.746333] (-) TimerEvent: {}
+[33.856858] (-) TimerEvent: {}
+[33.963191] (-) TimerEvent: {}
+[34.067309] (-) TimerEvent: {}
+[34.169264] (-) TimerEvent: {}
+[34.279963] (-) TimerEvent: {}
+[34.380900] (-) TimerEvent: {}
+[34.489560] (-) TimerEvent: {}
+[34.592702] (-) TimerEvent: {}
+[34.696950] (-) TimerEvent: {}
+[34.807651] (-) TimerEvent: {}
+[34.908944] (-) TimerEvent: {}
+[35.009852] (-) TimerEvent: {}
+[35.110924] (-) TimerEvent: {}
+[35.215878] (-) TimerEvent: {}
+[35.316590] (-) TimerEvent: {}
+[35.417506] (-) TimerEvent: {}
+[35.529238] (-) TimerEvent: {}
+[35.637362] (-) TimerEvent: {}
+[35.747960] (-) TimerEvent: {}
+[35.858347] (-) TimerEvent: {}
+[35.969066] (-) TimerEvent: {}
+[36.079545] (-) TimerEvent: {}
+[36.189929] (-) TimerEvent: {}
+[36.300555] (-) TimerEvent: {}
+[36.411083] (-) TimerEvent: {}
+[36.517022] (-) TimerEvent: {}
+[36.621601] (-) TimerEvent: {}
+[36.732403] (-) TimerEvent: {}
+[36.842968] (-) TimerEvent: {}
+[36.953405] (-) TimerEvent: {}
+[37.063720] (-) TimerEvent: {}
+[37.173822] (-) TimerEvent: {}
+[37.284418] (-) TimerEvent: {}
+[37.394610] (-) TimerEvent: {}
+[37.504916] (-) TimerEvent: {}
+[37.605898] (-) TimerEvent: {}
+[37.716296] (-) TimerEvent: {}
+[37.826948] (-) TimerEvent: {}
+[37.927766] (-) TimerEvent: {}
+[38.037897] (-) TimerEvent: {}
+[38.148556] (-) TimerEvent: {}
+[38.259366] (-) TimerEvent: {}
+[38.369617] (-) TimerEvent: {}
+[38.426200] (rrt_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librrt_planner.so\x1b[0m\n'}
+[38.470132] (-) TimerEvent: {}
+[38.571090] (-) TimerEvent: {}
+[38.675964] (-) TimerEvent: {}
+[38.786489] (-) TimerEvent: {}
+[38.897033] (-) TimerEvent: {}
+[39.006879] (-) TimerEvent: {}
+[39.115513] (-) TimerEvent: {}
+[39.216351] (-) TimerEvent: {}
+[39.326499] (-) TimerEvent: {}
+[39.436933] (-) TimerEvent: {}
+[39.539171] (-) TimerEvent: {}
+[39.641158] (-) TimerEvent: {}
+[39.747735] (-) TimerEvent: {}
+[39.851220] (-) TimerEvent: {}
+[39.951912] (-) TimerEvent: {}
+[40.052721] (-) TimerEvent: {}
+[40.153778] (-) TimerEvent: {}
+[40.265088] (-) TimerEvent: {}
+[40.375284] (-) TimerEvent: {}
+[40.485730] (-) TimerEvent: {}
+[40.590540] (-) TimerEvent: {}
+[40.693053] (-) TimerEvent: {}
+[40.803667] (-) TimerEvent: {}
+[40.914766] (-) TimerEvent: {}
+[41.025514] (-) TimerEvent: {}
+[41.136491] (-) TimerEvent: {}
+[41.247187] (-) TimerEvent: {}
+[41.357362] (-) TimerEvent: {}
+[41.458876] (-) TimerEvent: {}
+[41.571500] (-) TimerEvent: {}
+[41.649610] (rrt_planner) StdoutLine: {'line': b'[100%] Built target rrt_planner\n'}
+[41.671757] (-) TimerEvent: {}
+[41.740216] (rrt_planner) CommandEnded: {'returncode': 0}
+[41.741874] (rrt_planner) JobProgress: {'identifier': 'rrt_planner', 'progress': 'install'}
+[41.772069] (-) TimerEvent: {}
+[41.848558] (rrt_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner'], 'cwd': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'bruno', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bruno', 'OLDPWD': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/src/RRT_algorithm/rrt_planner', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bruno', 'NAME': 'Bruno', 'WSL_INTEROP': '/run/WSL/168_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/bruno/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Graphviz/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/bruno/.local/bin:/mnt/c/Users/bruno/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bruno/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/bruno/.local/bin:/home/bruno/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/bruno/IR-Project02/rrt-planner/IR-Project02/build/rrt_planner', 'TURTLEBOT3_MODEL': 'waffle_pi', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[41.872455] (-) TimerEvent: {}
+[41.921277] (rrt_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.935467] (rrt_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[41.937075] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner//rrt_planner_plugin.xml\n'}
+[41.979016] (-) TimerEvent: {}
+[42.043303] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/lib/librrt_planner.so\n'}
+[42.079241] (-) TimerEvent: {}
+[42.123057] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/include/rrt_planner/rrt_planner/rrt_planner.hpp\n'}
+[42.183414] (-) TimerEvent: {}
+[42.193542] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/config/planner_server_rrt.yaml\n'}
+[42.262504] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/library_path.sh\n'}
+[42.283735] (-) TimerEvent: {}
+[42.333142] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/library_path.dsv\n'}
+[42.394544] (-) TimerEvent: {}
+[42.410539] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/ament_index/resource_index/package_run_dependencies/rrt_planner\n'}
+[42.485653] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/ament_index/resource_index/parent_prefix_path/rrt_planner\n'}
+[42.503402] (-) TimerEvent: {}
+[42.568826] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/ament_prefix_path.sh\n'}
+[42.615667] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/ament_prefix_path.dsv\n'}
+[42.616263] (-) TimerEvent: {}
+[42.691297] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/path.sh\n'}
+[42.716562] (-) TimerEvent: {}
+[42.747444] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/environment/path.dsv\n'}
+[42.834694] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/local_setup.bash\n'}
+[42.835343] (-) TimerEvent: {}
+[42.876845] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/local_setup.sh\n'}
+[42.939804] (-) TimerEvent: {}
+[42.959438] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/local_setup.zsh\n'}
+[43.027349] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/local_setup.dsv\n'}
+[43.040947] (-) TimerEvent: {}
+[43.138839] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/package.dsv\n'}
+[43.141301] (-) TimerEvent: {}
+[43.173347] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/ament_index/resource_index/packages/rrt_planner\n'}
+[43.242294] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/rrt_planner\n'}
+[43.242792] (-) TimerEvent: {}
+[43.310705] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[43.347015] (-) TimerEvent: {}
+[43.378389] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[43.447323] (-) TimerEvent: {}
+[43.459878] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[43.510335] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/rrt_plannerConfig.cmake\n'}
+[43.555473] (-) TimerEvent: {}
+[43.568617] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/cmake/rrt_plannerConfig-version.cmake\n'}
+[43.652305] (rrt_planner) StdoutLine: {'line': b'-- Symlinking: /home/bruno/IR-Project02/rrt-planner/IR-Project02/install/rrt_planner/share/rrt_planner/package.xml\n'}
+[43.655716] (-) TimerEvent: {}
+[43.699705] (rrt_planner) CommandEnded: {'returncode': 0}
+[43.755947] (-) TimerEvent: {}
+[43.784566] (rrt_planner) JobEnded: {'identifier': 'rrt_planner', 'rc': 0}
+[43.788034] (-) EventReactorShutdown: {}
